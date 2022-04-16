@@ -121,7 +121,7 @@ ul {
 }
 
 #skill {
-  height: 100vh;
+  height: 150vh;
   background-image: url("./images/background3.jpg");
   color: white;
 }
@@ -178,6 +178,9 @@ ul {
 }
 .skill_sql {
   width: 90%;
+}
+.skill_bootstrap {
+  width: 70;
 }
 
 #contact {
