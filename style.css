@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "PT Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -83,15 +84,16 @@ ul {
 }
 #social {
   position: absolute;
-  top: 80%;
+  top: 70%;
 }
 .social {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 .social li {
   list-style: none;
-  margin-left: 20%;
+  margin-left: 5%;
 }
 .bi {
   font-size: 130%;
