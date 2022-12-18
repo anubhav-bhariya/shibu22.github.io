@@ -115,6 +115,7 @@ ul {
   margin: 20px 0px;
   text-align: center;
   font-size: 20px;
+  padding: 2px;
 }
 
 .colour {
@@ -122,11 +123,15 @@ ul {
 }
 
 #skill {
-  height: 150vh;
+  height: 160vh;
   width: 100vw;
   background-image: url("./images/background3.jpg");
   color: white;
 }
+.head {
+  margin-top: -20px;
+}
+
 .skill {
   max-width: 90%;
 }
@@ -166,13 +171,18 @@ ul {
 .skill_html {
   width: 90%;
 }
-.skill_css {
+.skill_css,
+.skill_node,
+.skill_express {
   width: 80%;
 }
 .skill_javascript {
   width: 75%;
 }
-.skill_bootstrap {
+.skill_bootstrap,
+.skill_java,
+.skill_python,
+.skill_mongoDB {
   width: 90%;
 }
 .skill_php {
@@ -249,4 +259,13 @@ p {
   max-height: 80%;
   border-radius: 20px;
   margin: 40px;
+}
+
+@media only screen and (max-width: 650px) {
+  #project {
+    height: auto;
+  }
+  #introduction {
+    height: 110vh;
+  }
 }
